@@ -1,0 +1,17 @@
+# 개발 버전
+spring:
+   profiles: win-dev 
+   
+   security: 
+    user:
+      name: test
+      password: test
+   
+   data:
+    mongodb:
+      uri: mongodb://localhost:27017/admin
+
+   absolute: 
+    path: 
+      upload-images: /Users/hwang-il-yeong/images/
+   
